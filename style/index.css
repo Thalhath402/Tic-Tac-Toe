@@ -1,0 +1,85 @@
+    body{
+        background: #0f0c29;  
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    }
+    h1 {
+        color: orangered;
+        font-size: 45px;
+        font-family: 'Courier New', monospace;
+    }
+    #main{
+        text-align: center; 
+        width: 60%;
+        position: relative;    
+    }
+    #result2{
+        z-index: 1;
+        position: absolute;
+        justify-content: center;
+        color: rgb(237, 234, 243);
+        font-weight: bolder;
+        font-size: 3rem;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family:  Copperplate, Papyrus, fantasy;
+        display: none;
+    }
+    .div1{       
+        height:8rem;
+    }
+    #inp1, #inp2, #inp3, #inp4, #inp5,
+    #inp6, #inp7, #inp8, #inp9 {
+        height: 100%;
+        width: 100%;
+        font-size: 3rem;
+        border: 1.5px solid  #302b63;
+        background-color: #AF7AC5;
+        font-family:  Copperplate, Papyrus, fantasy;
+        text-align: center;
+        font-weight: bold;
+       
+    }
+    .inpt:hover {
+        background-color:#413b74 !important;
+        cursor: default;
+    }
+    .btn {               
+        font-size: 20px;
+    } 
+    #print {
+        font-family: 'Courier New', monospace;
+        color: rgb(253, 233, 52);
+        font-size: 20px;
+    }  
+    
+@media screen and (max-width:680px) {
+    #inp1, #inp2, #inp3, #inp4, #inp5,
+    #inp6, #inp7, #inp8, #inp9 {   
+        width:100%;
+        font-size: 1.7rem;
+    }    
+    #main{ 
+        width: 90%;     
+    }
+    #result2{
+        font-size: 1.5rem;                      
+    } 
+    .div1{  
+        height: 5rem;     
+        width: 30%;
+    }  
+} 
+@media (max-width: 1024px)and (min-width: 768px){
+    .col-md-2 {
+        width: 30%;   
+    }
+    #main{ 
+        width: 70%;     
+    }
+}
+
+
+ 
+    
